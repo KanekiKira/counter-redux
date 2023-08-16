@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapers.com/images/hd/red-and-blue-smoke-9xqna04loqy0ipg9.jpg');
+}
+
+.counter {
+    font-size: 50px;
+    display: flex;  
+    justify-content: center;
+    color: black;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100px;
+}
+
+.center {
+    display: flex;
+    height: 50vh;
+    align-items:center;
+    justify-content: center;
+
+    background-color: transparent;
+}
+
+

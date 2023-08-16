@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import ClickButton from "./components/ClickButton";
+import ClickCounter from "./components/ClickCounter";
+import ClickNull from "./components/ClickNull";
+import style from '../src/index.module.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <div>
+  <ClickCounter/>
+  
+  <ClickButton/>
+  <ClickNull/>
+  </div>
+
+   </>
   );
 }
 
